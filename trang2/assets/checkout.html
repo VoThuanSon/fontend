@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <input type="checkbox" id="toggler">
+        <label for="toggle" class="fas fa-bars"></label>
+        <a href="" class="logo">Store<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">products</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <nav class="icons">
+            <a href="#" class="fas fa-cart-shopping"></a>
+        </nav>
+    </header>
+    <!-- section checkout -->
+    <section class="my-5 py-5 checkout">
+        <div class="container text-center mt-3 pt-5">
+            <h2 class="form-weight-bold">check out</h2>
+            <hr class="mx-auto">
+        </div>
+        <div class="mx-auto container">
+            <form action="" id="checkout-form">
+                <div class="form-group checkout-small-element">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control" id="checkout-name" name="name" placeholder="name" required>
+                </div>
+                <div class="form-group checkout-small-element">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control" id="checkout-email" name="email"
+                        placeholder="email address" required>
+                </div>
+                <div class="form-group checkout-small-element">
+                    <label for="">Phone</label>
+                    <input type="tel" class="form-control" id="checkout-phone" name="phone" placeholder="phone number"
+                        required>
+                </div>
+                <div class="form-group checkout-small-element">
+                    <label for="">City</label>
+                    <input type="text" class="form-control" id="checkout-city" name="city" placeholder="city" required>
+                </div>
+                <div class="form-group checkout-large-element">
+                    <label for="">Address</label>
+                    <input type="text" class="form-control" id="checkout-address" name="address" placeholder="address"
+                        required>
+                </div>
+                <div class="form-group checkout-btn-container">
+                    <p>Total amount: $199</p>
+                    <input type="submit" name="checkout_btn" value="checkout" class="btn" id="checkout-btn" required>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- section footer -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quich links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#features">features</a>
+                <a href="#products">products</a>
+                <a href="#contact">contact</a>
+                <a href="#reviews">reviews</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">cart</a>
+                <a href="#">products</a>
+                <a href="#">special offers</a>
+            </div>
+            <div class="box">
+                <h3>Locations</h3>
+                <p>Australia</p>
+                <p>US</p>
+                <p>Germany</p>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <p>+1234567890</p>
+                <p>info@email.com</p>
+            </div>
+        </div>
+        <div class="creator">created by <span>Son Oggy</span> | all rights reserved</div>
+    </section>
+</body>
+
+</html>

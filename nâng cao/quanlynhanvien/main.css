@@ -1,0 +1,30 @@
+.brand-gradient {
+    background-color: #00ccff;
+    background: -webkit-linear-gradient(to right, #00ccff, #00a347);
+    background: linear-gradient(to right, #00ccff, #00a347);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.vr {
+    color: white;
+}
+
+body {
+    background-color: #eee
+}
+
+.card {
+    border: none
+}
+
+.btn-outline-dark {
+    border-radius: 35px;
+    font-size: 10px;
+    box-shadow: none
+}
+
+.col-md-3 {
+    margin-top: 5px
+}
